@@ -6,13 +6,14 @@ import { useRouter } from 'next/navigation';
 import { Button } from '@/components/Button';
 import { Container } from '@/components/Container';
 import { GitHubIcon, LinkedInIcon } from '@/components/SocialIcons';
-import { ErrorMessage, Field, Label } from '@/components/Fieldset';
+import { Description, ErrorMessage, Field, Label } from '@/components/Fieldset';
 import { Input } from '@/components/Input';
+import { Divider } from '@/components/Divider'
 
 function FNameInput({ errors, handleChange }) {
   return (
     <Field>
-      <Label>Your first name</Label>
+      <Label>Your first name*</Label>
       <Input
         name="first_name"
         onChange={handleChange}
@@ -21,6 +22,7 @@ function FNameInput({ errors, handleChange }) {
       {errors.has('first_name') && (
         <ErrorMessage>{errors.get('first_name')}</ErrorMessage>
       )}
+      <Description>Only used to personalize the next page.</Description>
     </Field>
   );
 }
@@ -96,10 +98,11 @@ export default function Home() {
               icon={GitHubIcon}
             />
           </div>
+          <Divider className="mt-6" />
           <form onSubmit={handleSubmit} className="mt-6 flex flex-col items-start gap-4">
             <FNameInput errors={errorObj} handleChange={handleChange} />
             <Button type="submit" className="flex-none">
-              Learn why
+              Learn more
             </Button>
           </form>
         </div>
