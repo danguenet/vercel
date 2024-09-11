@@ -40,8 +40,14 @@ export default function Page({ params }) {
             <strong>Soft Skills that Rival My Hard Skills</strong> – While everyone being considered for this role likely has strong technical skills, I’ve learned that soft skills are just as important—if not more so. I excel at collaborating with stakeholders to identify the root of problems and develop solutions that meet everyone’s needs. I’m also skilled at communicating priorities clearly and explaining the reasoning behind them, ensuring alignment across teams. Additionally, I have extensive experience collaborating with leadership to provide the data and insights they need to succeed.
           </li>
           </ul>
+          <h3 className="mt-4 text-2xl font-semibold tracking-tight text-zinc-800 sm:text-3xl dark:text-zinc-100">
+            To Wrap Up
+          </h3>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I’m confident that my blend of experience and skills will allow me to make a significant impact at Vercel. I’m eager to bring my collaborative approach and problem-solving abilities to your team and contribute to the company’s continued success. I’m genuinely excited about the opportunity to work with you.
+          </p>
+          <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
+            Thanks for your consideration,<br />Dan Guenet
           </p>
         </div>
       </Container>
