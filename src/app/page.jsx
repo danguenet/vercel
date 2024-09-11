@@ -71,13 +71,13 @@ export default function Home() {
 
   return (
     <>
-      <Container className="m-9">
+      <Container className="my-9">
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Hi, I’m Dan Guenet,
           </h1>
           <h2 className="mt-4 text-3xl font-semibold tracking-tight text-zinc-800 sm:text-4xl dark:text-zinc-100">
-            and I’m excited about the opportunity to work with you.
+            and I want to work with you.
           </h2>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
             I have spent the last seven years working in go-to-market operations, progressing from a fresh college graduate tasked with implementing Salesforce to achieving a Director title. Along the way, I’ve gained valuable experience and insights, and I’m eager to bring that knowledge and more to Vercel.

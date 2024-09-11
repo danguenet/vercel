@@ -5,7 +5,7 @@ import { Container } from '@/components/Container'
 export default function Page({ params }) {
   return (
     <>
-      <Container className="m-9">
+      <Container className="my-9">
         <div>
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 sm:text-5xl dark:text-zinc-100">
             Hi {params.name}
