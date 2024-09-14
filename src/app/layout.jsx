@@ -5,12 +5,12 @@ import '@/styles/tailwind.css'
 
 export const metadata = {
   title: {
-    template: '%s - Spencer Sharp',
+    template: '%s - Dan Guenet',
     default:
       'Dan Guenet - Aspiring Vercel Employee',
   },
   description:
-    'I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms.',
+    'I’m Dan, an aspiring Vercel Employee. I have an extensive background in go-to-market operations and I have a lot to offer. I look forward to chatting!',
 }
 
 export default function RootLayout({ children }) {

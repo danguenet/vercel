@@ -5,7 +5,6 @@ import Image from 'next/image'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
 import { useTheme } from 'next-themes'
-import { PopoverButton } from '@headlessui/react'
 import clsx from 'clsx'
 
 import { Container } from '@/components/Container'
